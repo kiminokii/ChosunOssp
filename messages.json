@@ -1,0 +1,274 @@
+{
+    "Games.name": {
+        "desc": "The project name.",
+        "msg": "집에 갈 수 있게 도와주세요!"
+    },
+    "Games.maze": {
+        "desc": "title - Specifies that this is Blockly's '''Maze''' game.\n{{Identical|Maze}}",
+        "msg": "컴퓨터공학도를 위한 길찾기 게임입니다!"
+    },
+    "Games.linesOfCode1": {
+        "desc": "alert - Displayed when a level is complete.",
+        "msg": "이 레벨을 자바스크립트 1 줄로 해결했네요!"
+    },
+    "Games.linesOfCode2": {
+        "desc": "alert - Displayed when a level is complete.  %1 is an integer greater than 1.",
+        "msg": "이 레벨을 자바스크립트 %1 줄로 해결했네요!"
+    },
+    "Games.nextLevel": {
+        "desc": "alert - This is displayed when the user solves the level, inviting them to procede to the next level of difficulty.  %1 is an integer greater than 1.",
+        "msg": "레벨 %1에 대한 준비가 됐나요?"
+    },
+    "Games.finalLevel": {
+        "desc": "alert - This is displayed when the user solves the most difficult level and is going to go to the next game.",
+        "msg": "더 어려워진 길 찾기 준비됐나요?"
+    },
+    "Games.submitTitle": {
+        "desc": "Label in front of a field where the user is requested to type a title for their work.\n{{Identical|Title}}",
+        "msg": "제목:"
+    },
+    "Games.linkTooltip": {
+        "desc": "tooltip - Pressing this button will cause the current program to be saved and for a URL to be shown to later retrieve it.",
+        "msg": "블록을 저장하고 링크를 가져옵니다."
+    },
+    "Games.runTooltip": {
+        "desc": "tooltip - Pressing this button runs the computer program the user has written.",
+        "msg": "알려주신 길로 가볼게요."
+    },
+    "Games.runProgram": {
+        "desc": "button label - Pressing this button runs the computer program the user has written.",
+        "msg": "길 찾기 시작"
+    },
+    "Games.resetTooltip": {
+        "desc": "tooltip - Pressing this button restores the player to the start position and enables the user's program to be run again.",
+        "msg": "프로그램을 멈추고 레벨을 초기화합니다."
+    },
+    "Games.resetProgram": {
+        "desc": "button label - Pressing this button causes the output of the program to be erased but does not delete the user's program).\n{{Identical|Reset}}",
+        "msg": "다시하기"
+    },
+    "Games.help": {
+        "desc": "button label - Pressing this button shows help information.\n{{Identical|Help}}",
+        "msg": "도움말"
+    },
+    "Games.catLogic": {
+        "desc": "category - Blocks related to [https://github.com/google/blockly/wiki/Logic logic].\n{{Identical|Logic}}",
+        "msg": "논리"
+    },
+    "Games.catLoops": {
+        "desc": "category - Blocks related to [https://en.wikipedia.org/wiki/Control_flow#Loops loops].\n{{Identical|Loops}}",
+        "msg": "반복"
+    },
+    "Games.catMath": {
+        "desc": "category - Blocks related to mathematics.\n{{Identical|Math}}",
+        "msg": "수학"
+    },
+    "Games.catText": {
+        "desc": "category - Blocks related to [https://github.com/google/blockly/wiki/Text text processing].\n{{Identical|Text}}",
+        "msg": "문자열"
+    },
+    "Games.catLists": {
+        "desc": "category - Blocks related to [https://github.com/google/blockly/wiki/Lists lists].\n{{Identical|List}}",
+        "msg": "목록"
+    },
+    "Games.catColour": {
+        "desc": "category - Blocks related to [https://github.com/google/blockly/wiki/Colour colour].\n{{Identical|Color}}",
+        "msg": "색"
+    },
+    "Games.catVariables": {
+        "desc": "category - Blocks related to [https://github.com/google/blockly/wiki/Variables variables].\n{{Identical|Variables}}",
+        "msg": "변수"
+    },
+    "Games.catProcedures": {
+        "desc": "category - Blocks related to [https://en.wikipedia.org/wiki/Subroutine defining or using procedures/functions].\n{{Identical|Functions}}",
+        "msg": "함수"
+    },
+    "Games.httpRequestError": {
+        "desc": "alert - The URL is invalid or a server error occurred.  This message will be followed by technical information useful to engineers trying to understand the problem.",
+        "msg": "요청에 문제가 있습니다."
+    },
+    "Games.linkAlert": {
+        "desc": "alert - After the user has pressed a button to save his/her program, this provides the URL (%1) to retrieve the program.  The characters '\n\n' indicate that a blank line will be displayed before the URL (in English).  Leave those in unless you move %1 to the beginning or middle of the text, in which case you should use your judgment about where blank lines would be most useful.\n\nParameters:\n* %1 - URL of saved program.",
+        "msg": "다음 링크로 블록을 공유하세요.\n\n%1"
+    },
+    "Games.hashError": {
+        "desc": "alert - A request to retrieve a stored program does not have a valid URL. %1 is the invalid portion of the URL.",
+        "msg": "죄송하지만 '%1'은 저장된 프로그램 중 일치하는 것이 없습니다."
+    },
+    "Games.xmlError": {
+        "desc": "alert - There was a problem loading a file previously saved by the user.  The most likely reason for the problem is that it was created with an earlier, incompatible version of Blockly.  This message will be followed by technical information useful to engineers trying to understand the problem.",
+        "msg": "저장된 파일을 불러올 수 없습니다. 혹시 게임의 다른 버전으로 만들었습니까?"
+    },
+    "Games.submitted": {
+        "desc": "alert - After the user has submitted his/her program to the gallery, it must wait for approval.  Please make this message funny!",
+        "msg": "Thank you for this program!  If our staff of trained monkeys like it, they will publish it to the gallery within a couple of days."
+    },
+    "Games.listVariable": {
+        "desc": "variable name - Default [https://github.com/google/blockly/wiki/Variables variable] representing a [https://github.com/google/blockly/wiki/Lists list].  This should be a single word, preferably short.\n{{Identical|List}}",
+        "msg": "목록"
+    },
+    "Games.textVariable": {
+        "desc": "variable name - Default [https://github.com/google/blockly/wiki/Variables variable] representing a [https://github.com/google/blockly/wiki/Text piece of text].  This should be a single word, preferably short.\n{{Identical|Text}}",
+        "msg": "텍스트"
+    },
+    "Games.breakLink": {
+        "desc": "Warning dialog. Options are 'OK' and 'Cancel'.",
+        "msg": "자바스크립트 편집을 시작하면 편집 블록으로 되돌아갈 수 없습니다. 그렇게 하시겠습니까?"
+    },
+    "Games.blocks": {
+        "desc": "Label on a tab that contains blocks editor.\n{{Identical|Block}}",
+        "msg": "블록"
+    },
+    "Games.congratulations": {
+        "desc": "alert - This is displayed when the user solves the level.\n{{Identical|Congratulation}}",
+        "msg": "축하합니다!"
+    },
+    "Games.helpAbort": {
+        "desc": "callout - This dialog gives the user the option to skip this level.",
+        "msg": "이 레벨은 어려운데 건너뛰고 넘어가시죠? ㅋ 나중에 다시 돌아올 수 있습니다."
+    },
+    "Index.clear": {
+        "desc": "Confirmation prompt for deleting all the user's data.",
+        "msg": "모든 답을 지우시겠습니까?"
+    },
+    "Index.subTitle": {
+        "desc": "Brief description of Blockly Games.",
+        "msg": "미래의 컴퓨터공학도를 위한 게임."
+    },
+    "Index.moreInfo": {
+        "desc": "Link to a description of Blockly Games, intended for parents and teachers.",
+        "msg": "프로그램 정보"
+    },
+    "Index.startOver": {
+        "desc": "Label next to button for deleting all the user's data.",
+        "msg": "다시 시작하겠습니까?"
+    },
+    "Index.clearData": {
+        "desc": "Text on button for deleting all the user's data.",
+        "msg": "데이터 지우기"
+    },
+    "Maze.moveForward": {
+        "desc": "block text - Imperative or infinitive of a verb for a person moving (walking) in the direction he/she is facing.",
+        "msg": "앞으로 가기"
+    },
+    "Maze.turnLeft": {
+        "desc": "[[Translating:Blockly#Drop-Down_Menus dropdown]] - Imperative or infinitive of a verb for a person turning his head and body one quarter rotation counter-clockwise.  Prefer a translation that has text in common with the translation of 'turn right'.  See [[Translating:Blockly#Drop-Down_Menus]].",
+        "msg": "왼쪽으로 돌기"
+    },
+    "Maze.turnRight": {
+        "desc": "[[Translating:Blockly#Drop-Down_Menus dropdown]] - Imperative or infinitive of a verb for a person turning his head and body one quarter rotation clockwise.  Prefer a translation that has text in common with the translation of 'turn left'.  See [[Translating:Blockly#Drop-Down_Menus]].",
+        "msg": "오른쪽으로 돌기"
+    },
+    "Maze.doCode": {
+        "desc": "block text - Imperative or infinitive of a verb preceding one or more commands to a person.  This is part of [https://github.com/google/blockly/wiki/Loops#repeat repeat] and [https://github.com/google/blockly/wiki/IfElse#If_blocks if] blocks.\n{{Identical|Do}}",
+        "msg": "do"
+    },
+    "Maze.elseCode": {
+        "desc": "block text - Conjunction meaning 'otherwise', introducing commands to be performed if a previous condition was not true, as in 'if x>3, do this, else do that'.  See [https://github.com/google/blockly/wiki/IfElse#If-Else_blocks].\n{{Identical|Else}}",
+        "msg": "else"
+    },
+    "Maze.helpIfElse": {
+        "desc": "callout - This is shown when the 'if-else' block is introduced.  For 'if-else' concatenate the words for 'if' and 'else/otherwise'.",
+        "msg": "If-else블록은 한 가지 또는 다른 행동을 합니다."
+    },
+    "Maze.pathAhead": {
+        "desc": "[[Translating:Blockly#Drop-Down_Menus dropdown]] - Condensed form of 'if there is a path ahead', as in: 'if path ahead, go forward'.  Prefer translation that has text in common with 'if path to the left' and 'if path to the right'.",
+        "msg": "만약 길이 앞으로 갈 수 있다면"
+    },
+    "Maze.pathLeft": {
+        "desc": "[[Translating:Blockly#Drop-Down_Menus dropdown]] - Condensed form of 'if there is a path to the left', as in: 'if path to the left, turn left'.",
+        "msg": "만약 길이 왼쪽으로 갈 수 있다면"
+    },
+    "Maze.pathRight": {
+        "desc": "[[Translating:Blockly#Drop-Down_Menus dropdown]] - Condensed form of 'if there is a path to the right', as in: 'if path to the right, turn right'.",
+        "msg": "만약 길이 오른쪽으로 갈 수 있다면"
+    },
+    "Maze.repeatUntil": {
+        "desc": "block text - Imperative or infinitive of a verb to repeat the following commands.  The phrase is followed by the symbol denoting the end of the maze.",
+        "msg": "다음까지 반복"
+    },
+    "Maze.moveForwardTooltip": {
+        "desc": "tooltip - Moves the icon on the screen representing the player forward one square on the maze board.",
+        "msg": "플레이어가 한 칸 앞으로 이동합니다."
+    },
+    "Maze.turnTooltip": {
+        "desc": "tooltip - Turns the icon on the screen representing the player 90 degrees counter-clockwise (left) or clockwise (right).",
+        "msg": "플레이어가 90도로 왼쪽이나 오른쪽으로 돕니다."
+    },
+    "Maze.ifTooltip": {
+        "desc": "tooltip - 'path' refers to a path through a maze.",
+        "msg": "만약 지정된 방향으로 하고 있으면, 몇 가지 행동을 합니다."
+    },
+    "Maze.ifelseTooltip": {
+        "desc": "tooltip - 'path' refers to a path through a maze.",
+        "msg": "만약 지정된 방향으로 하고 있으면, 첫 번째 블록을 행동합니다. 그렇지 않으면, 두 번째 블록을 행동합니다."
+    },
+    "Maze.whileTooltip": {
+        "desc": "tooltip - Repeat the enclosed commands until the maze has been successfully completed (the end point reached).",
+        "msg": "도착점에 도달할 때까지 내부 행동을 반복합니다."
+    },
+    "Maze.capacity0": {
+        "desc": "warning - No more blocks may be added until some are removed.  Please include '%0' in the translated string.  It will be replaced with '0' and made bold.",
+        "msg": "나머지 블록 %0개가 있습니다."
+    },
+    "Maze.capacity1": {
+        "desc": "warning - Only one more block may be added. Please include '%1' in the translated string. It will be replaced with '1' and made bold.\n\nSee also:\n* {{msg-blockly|Maze.capacity2}}",
+        "msg": "나머지 블록 %1개가 있습니다."
+    },
+    "Maze.capacity2": {
+        "desc": "warning - Only %2 more blocks may be used, where %2 is an integer greater than 1.\n\nSee also:\n* {{msg-blockly|Maze.capacity1}}",
+        "msg": "나머지 블록 %2개가 있습니다."
+    },
+    "Maze.runTooltip": {
+        "desc": "tooltip - Pressing this button runs the computer program the user has written to move the player through the maze.",
+        "msg": "블록이 말하는 행동을 플레이어가 합니다."
+    },
+    "Maze.resetTooltip": {
+        "desc": "tooltip - Pressing this button restores the player to the start position and enables the user's program to be run again.",
+        "msg": "미로의 시작에서 플레이어를 다시 넣습니다."
+    },
+    "Maze.helpStack": {
+        "desc": "callout - The word words for 'stack' and 'blocks' should be the same as for stacking children's blocks. Use the imperative verb form appropriate for speaking to a child, gender unspecified.  If no gender-neutral singular/familiar form exists but a gender-neutral plural/formal form exists, use that instead.  Be sure to use the same translation of 'move forward' as above.",
+        "msg": "목표에 도달할 수 있도록 함께 '앞으로 가기' 블록을 세로로 쌓으세요."
+    },
+    "Maze.helpOneTopBlock": {
+        "desc": "callout - This is displayed if a user attempts to run a program composed of multiple stacks of blocks, letting them know they need to create a single stack.",
+        "msg": "이 단계는 하얀 작업 공간에서 모든 블록을 함께 쌓을 필요가 있습니다."
+    },
+    "Maze.helpRun": {
+        "desc": "callout - This is shown after the user has created a program on the first level.",
+        "msg": "어떻게 되는지 보려면 프로그램을 실행하세요."
+    },
+    "Maze.helpReset": {
+        "desc": "callout - This is shown after the user has run a program that does not solve the maze.",
+        "msg": "당신의 프로그램으로 길을 찾을 수 없습니다. '재설정'을 누르고 다시 시도하세요."
+    },
+    "Maze.helpRepeat": {
+        "desc": "callout - This is shown when the 'repeat' block is introduced.  The word 'path' refers to a path through a maze, and 'block' refers to a child's building block.",
+        "msg": "컴퓨터는 제한된 메모리가 있습니다. 블록 두 개만 사용해 이 길의 끝에 도달하세요. 한 번 이상 블록을 실행하려면 '반복'을 사용하세요."
+    },
+    "Maze.helpCapacity": {
+        "desc": "callout - This is shown after the user has used all the blocks permitted on this level.",
+        "msg": "이 단계에 대한 모든 블록을 사용했습니다. 새 블록을 만들기 위해서는 먼저 기존의 블록을 삭제해야 합니다."
+    },
+    "Maze.helpRepeatMany": {
+        "desc": "callout - This is a hint that the user should place a second block inside of a a 'repeat' block.",
+        "msg": "'반복' 블록 안에 하나 이상의 블록을 넣을 수 있습니다."
+    },
+    "Maze.helpSkins": {
+        "desc": "callout - This is a hint that the user can change the appearance of the player that moves within the maze.",
+        "msg": "메뉴에서 당신이 좋아하는 선수를 고르세요."
+    },
+    "Maze.helpIf": {
+        "desc": "callout - This is shown when the 'if' block is introduced.  An example of an 'if' block is: 'if there is a path to the left, turn left'.",
+        "msg": "'만약' 블록은 조건이 참이면 무언가를 합니다. 왼쪽에 길이 있으면 왼쪽으로 돌도록 하세요."
+    },
+    "Maze.helpMenu": {
+        "desc": "callout - %1 will be replaced with an image of the dropdown menu that the user needs to click.",
+        "msg": "'만약' 블록의 조건을 바꾸려면 %1 부분을 클릭하세요."
+    },
+    "Maze.helpWallFollow": {
+        "desc": "callout - This advises the user to solve a maze by keeping his/her left hand in contact with the wall while proceeding through it.  The final sentence is a warning that only advanced programmers should attempt this problem, as beginners tend to get frustrated.",
+        "msg": "복잡한 미로를 풀 수 있습니까? 다음 왼쪽 벽을 시도하세요. 고급 프로그래머만!"
+    }
+}
