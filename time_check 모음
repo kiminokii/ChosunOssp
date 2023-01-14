@@ -14,3 +14,12 @@ setInterval(() => {
     // HTML에 문자열 넣기
     document.querySelector('#log').innerHTML = `${sec}초 경과`;
 }, 1000);
+
+
+
+val old = new Date().getTime();
+val now = new Date().getTime();
+
+var sec_gap = (now - old) / 1000;
+val min_gap = (now - old) / 60000;
+val hour_gap = (now - old) / 3600000;
