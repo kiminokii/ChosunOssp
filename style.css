@@ -84,14 +84,26 @@ canvas {
         height: 200px;
     }
 
-    h1 {
-        font-size: 65px;
+    h1 span {
+        font-size: 50px;
         background: linear-gradient(
-            270deg, #1438A6, #BF1736, #1438A6
+            270deg, #1438A6, #BF1736
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        position: relative;
+        top: 20px;
+        display: inline-block;
+        animation: bounce .3s ease infinite alternate;
     }
+
+    h1 span:nth-child(2) { animation-delay: .1s; }
+    h1 span:nth-child(3) { animation-delay: .2s; }
+    h1 span:nth-child(4) { animation-delay: .3s; }
+    h1 span:nth-child(5) { animation-delay: .4s; }
+    h1 span:nth-child(6) { animation-delay: .5s; }
+    h1 span:nth-child(7) { animation-delay: .6s; }
+    h1 span:nth-child(8) { animation-delay: .7s; }
 
     .lead {
         color: rgb(220, 220, 220);
@@ -115,11 +127,16 @@ body { overscroll-behavior: none }
       transform: rotate(-1.5deg);
     }
 }
+@keyframes bounce {
+    100% {
+      top: -20px;
+    }
+  }
 @media (max-width: 768px)and (orientation: Portrait) {
     html {font-size:  calc(0.65em + 0.3vw) }
 
     .main_display{
-        font-size: 20px;
+        font-size: 30px;
     }
     .controls {
     width:  calc(15em + 12vw) ;
@@ -131,7 +148,7 @@ body { overscroll-behavior: none }
         width:  calc(10em + 10vw) ;
     }
     .main_display{
-        font-size: 35px;
+        font-size: 50px;
     }
     .wlcm{
         margin-top: 75px;
