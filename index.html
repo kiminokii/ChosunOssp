@@ -1,7 +1,5 @@
-
-
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -20,10 +18,11 @@
         <div class="jumbotron wlcm">
             <h1 class="main_display" id="header">미로를 탈출해라!</h1>
             <hr>
-            <p class="lead">! 간단한 게임 설명 !</p>
+            <h3 class="lead">! 간단한 게임 설명 !</h3>
             <p class="lead">방향키로 이동하며 터치스크린일 경우 원하는 방향으로 터하면 됩니다.</p>
             <img class="controls" src="/Users/okii/Desktop/programming/HTML/OSSP/maze/images/Controls.png" alt="can't load">
             <img class="screen_touch" src="/Users/okii/Desktop/programming/HTML/OSSP/maze/images/touch.png" alt="can't load">
+            <hr>
             <p class="lead">난이도를 정하고 '시작'버튼을 눌러 게임을 시작하세요.</p>
             <hr class="my-4">
             <div class="input-group">
@@ -42,12 +41,12 @@
         </div>
     </div>
     <div class="jumbotron Win">
-        <h1 class="main_display">GOOD JOB :D </h1>
+        <h1 class="main_display">미로를 탈출했습니다</h1>
         <hr>
-        <p class="lead">Page Loading </p>
-        <div class="spinner-border text-info" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+        <p class="lead">경과시간 </p>
+        <div id="time" class="time">00:00:00</div>
+        <hr>
+        <button type="button" class="btn btn-outline-info btn-lg , back">돌아가기</button>
 
     </div>
 
@@ -64,4 +63,5 @@
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
         crossorigin="anonymous"></script><!--특정 버전의 파일이 변경되거나 변조된 경우 막을 수 있다.-->
 <script src="main.js"></script>
+
 </html>
