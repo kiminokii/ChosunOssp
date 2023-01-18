@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    
+
 }
 
 
@@ -57,7 +57,7 @@ canvas {
   background: #0D1440 !important;
      text-align: center;
      align-items: center;
-
+     width: auto;
  }
     .input-group {
 
